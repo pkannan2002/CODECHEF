@@ -1,0 +1,10 @@
+t = int(input())
+for i in range (t):
+    n=int(input())
+    b=list(map(int,input().split()))
+    count=sum(b)
+    if(count %2==0):
+        print("YES")
+    else:
+        print(("NO"))
+    
