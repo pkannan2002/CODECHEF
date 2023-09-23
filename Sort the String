@@ -1,0 +1,12 @@
+t=int(input())
+while t!=0:
+    size =int(input())
+    string=input()
+    result=0
+    for i in range(size-1):
+        if(string[i:i+1]=="10"):
+            result+=1
+            i+=1
+    print(result)
+    t-=1
+            
